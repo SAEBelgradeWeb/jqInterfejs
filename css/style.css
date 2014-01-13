@@ -1,0 +1,111 @@
+/* 240, 315 
+
+boja strane #202427
+
+boja kartice #37363C
+
+visina slike 190px
+ikonica 30x30px
+boja ikonice #E24F69
+
+*/
+
+body {
+	background-color: #202427;
+}
+.kartica {
+	position: relative;
+	margin: 50px;
+	background-color: #37363C;
+	width: 240px;
+	height: 315px;
+	transition: width 0.5s;
+}
+
+/*.kartica:hover {
+	width: 350px;
+	transition: width 0.5s;
+}*/
+
+.slika {
+	position: relative;
+}
+.slika img {
+	cursor: pointer;
+}
+.ikonica {
+	position:absolute;
+	background-color: #E24F69;
+	width: 30px;
+	height: 30px;
+	top:0;
+	right: 0;
+}
+.content {
+
+	position: absolute;
+	top:190px;
+	color:#BBBBAF;
+	padding: 25px;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 15px;
+	z-index: 10;
+	height: 80px;
+	opacity: 1;
+	transition: top 1s, height 0.5s, opacity 1s, background-color 1s;
+}
+
+.content:hover {
+	background-color: #666470;
+	top:0;
+	height: 265px;
+	opacity: 0.8;
+	transition: top 1s, height 0.5s, opacity 1s, background-color 1s;
+
+}
+.buttons {
+	position: absolute;
+	height:35px;
+	width: 240px;
+	bottom: 0;
+
+}
+.comment, .heart {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 12px;
+	width:33px;
+	float: left;
+	text-align: right;
+	padding-right: 12px;
+	line-height: 35px;
+	color:#8F8F93;
+
+}
+
+.comment {
+	border-right: 1px solid #8F8F93;
+	background-image: url(../images/icon-comments.png);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+}
+
+.heart {
+
+	background-image: url(../images/icon-heart.png);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+}
+
+.zeleno {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+
+}
+
+/*.zeleno:hover {
+	background-color: red;
+	width: 600px;
+	transition: background-color 1s, width 2s;
+
+}*/
