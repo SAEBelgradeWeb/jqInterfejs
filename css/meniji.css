@@ -1,0 +1,31 @@
+
+.prvi li {
+	list-style-type: none;
+	width: 200px;
+	background-color: red;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px;
+	margin: 2px;
+	cursor: pointer;
+	transition: width 0.3s, background-color 0.3s;
+}
+
+.prvi li:hover {
+	width:250px;
+	background-color: orange;
+	transition: width 0.3s, background-color 0.3s;
+}
+
+.drugi li {
+	list-style-type: none;
+	width: 200px;
+	background-color: red;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px;
+	margin: 2px;
+	cursor: pointer;
+}
