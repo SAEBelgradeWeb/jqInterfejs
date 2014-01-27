@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.slajder {
+	height: 500px;
+	background-color: #ECECEC;
+	margin-top: 80px;
+	background-image: url(../images/kineskinja.png);
+	background-repeat: no-repeat;
+	background-position: -40% center;
+}
+/*
+.slajder_gotovo {
+	background-position: 80% center;
+	transition: background-position 0.8s;
+}
+
+.slajder_gotovo_2 {
+		background-position: 70% center;
+	transition: background-position 0.2s;
+}*/

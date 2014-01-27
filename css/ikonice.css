@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.ikonica {
+	width: 100px;
+	height: 100px;
+	background-color: #3c4852;
+	border-radius: 20%;
+	background-image: url(../images/running.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+
+	transition: transform 1.5s, left 1.5s, top 1.5s;
+	transition: -webkit-transform 1.5s, left 1.5s, top 1.5s;
+	transition: -ms-transform 1.5s, left 1.5s, top 1.5s;
+
+}
+
+.ikonica:hover {
+/*	left: 400px;
+	top: 200px;*/
+
+	 transform: rotate(720deg) scale(2,2);
+	 -webkit-transform: rotate(720deg) scale(2,2);
+	 -ms-transform: rotate(720deg) scale(2,2);
+
+
+
+
+	transition: transform 1.5s;
+	transition: -webkit-transform 1.5s;
+	transition: -ms-transform 1.5s;
+
+
+
+}
