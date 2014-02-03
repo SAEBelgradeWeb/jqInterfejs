@@ -1,0 +1,44 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+		background-image: url(../images/bg_full3.jpg);
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+}
+
+h1 {
+	position: absolute;
+	font-size: 60px;
+	color: white;
+	font-variant: small-caps;
+
+	left: -800px;	
+/*	left: 200px;*/
+	top: 200px;
+	text-shadow: 1px 1px black;
+
+}
+
+h2 {
+
+	position: absolute;
+	font-size: 26px;
+	color: black;
+	font-variant: small-caps;
+	left: 3000px;
+	/*left: 208px;*/
+	top: 273px;
+	z-index: 10;
+	text-shadow: 1px 1px white;
+
+}
+
